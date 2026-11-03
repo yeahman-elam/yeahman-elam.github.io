@@ -5,31 +5,169 @@ nav {
     position: sticky;
     top: 0;
     left: 0;
+    bottom: 100px;
     z-index: 9999;
     display: flex;
-}
-
-p {
-    color: black;
-    font-size: 16px;
-}
-heading {
-    color: #bbb;
-    font-size: 36px;
-    margin-bottom: 50px;
+    scroll-margin: 16px;
 }
 body {
     margin-left: 300px;
     margin-right: 300px;
+    font-family: "courierFontBold";
+    background-image: url("../assets/background.png"), linear-gradient(white, #e6eff9);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 300px 400px, auto;
 }
 
-div {
+.about {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "courierFontBold";
+}
+
+p {
+    color: black;
+    margin: 16px 150px 16px 150px;
+    font-family: "courierFont";
+    font-size: 16px;
+}
+pnote {
+    color: dimgray;
+    font-size: 13px;
+    font-family: "courierFont";
+}
+h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-family: "courierFontBold";
+}
+h2 {
+    color: #bbb;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-family: "courierFontBold";
+}
+
+.button:hover{background-color: #c44d4d;}
+
+.divider {
     margin-top: 16px;
     margin-bottom: 16px;
     border-top: 3px solid #bbb;
 }
-box {
-    width: 300px;
-    border: 15px grey;
-    padding: 50px;
+
+#table_projects {
+    margin-top: 16px;
+    width: 100%;
+    height: 100%
+}
+
+#table_nav {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#img_projects:hover {
+    filter: brightness(75%);
+    border: 5px solid #bbb;
+}
+
+.head {
+    background-color: white;
+    border: 5px solid #5a95d8;
+    border-radius: 8px;
+    margin: 30px 40px 30px 10px;
+    padding: 10px 0px;
+    
+    font-family: "courierFontBold";
+    font-size: 24px;
+}
+
+.project {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding: 12px;
+    width: 325px;
+    height: 550px;
+    background-color: #bbb;
+    border-radius: 16px;
+}
+
+.project p, h1 {
+    text-align: center;
+    width: 90%;
+    margin: 5%;
+    margin-top: 16px;
+}
+
+.project pNote {
+    text-align: center;
+}
+
+.project .button {
+    margin: 0px;
+}
+
+.button {
+    background-color: #fa5c5c;
+    color: white;
+    text-decoration: none;
+    padding: 9% 12%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    font-family: "courierFontBold";
+}
+
+.itch {
+    filter: brightness(125%);
+    display: inline-block;
+    align-content: center;
+    vertical-align: middle;
+    float: right;
+    border: none;
+}
+.itch:hover{filter: brightness(85%); border: none;}
+
+.project_buttons {
+    margin: 10px 12.5%;
+    10px 12.5%;
+    width: 75%;
+    height: 200px;
+}
+
+@font-face {
+    font-family: "courierFont";
+    src: url("../assets/fonts/courier.ttf");
+}
+
+@font-face {
+    font-family: "courierFontBold";
+    src: url("../assets/fonts/courierbd.ttf");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    body {
+        animation: scrolling 5s linear infinite;
+    }
+
+    @keyframes scrolling {
+        0% {
+            background-position: left top, center;
+        }
+
+        100% {
+            background-position: left 400px, center;
+        }
+    }
 }
