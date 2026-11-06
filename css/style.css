@@ -1,4 +1,4 @@
-nav {
+ynav {
     background-color: black;
     width: 100%;
     overflow: visible;
@@ -128,6 +128,17 @@ img {
     margin: 0px;
 }
 
+.project_major {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding: 12px;
+    width: 80%;
+    height: 100%;
+    background-color: #bbb;
+    border-radius: 16px;
+}
+
 .button {
     background-color: #fa5c5c;
     color: white;
@@ -219,4 +230,10 @@ footer .itch {
     overflow: hidden;
     background-color: #f1f1f1;
     font-family: courier;
+}
+
+.dog {
+    display: flex;
+    align-items: center;
+    height: 900px;
 }
