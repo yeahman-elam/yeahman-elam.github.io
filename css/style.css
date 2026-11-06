@@ -173,3 +173,35 @@ img {
         }
     }
 }
+
+.collapsible {
+    border-radius: 16px;
+    background-color: #bbb;
+    color: black;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 32px;
+    font-family: courierFontBold;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+
+.active {
+    background-color: #ccc;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.content {
+    margin-top: -32px;
+    margin-bottom: 32px;
+    padding: 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: courier;
+}
