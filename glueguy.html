@@ -27,28 +27,19 @@
             </div>
         </div>
         <div class="container_projInfo">
-            <div><img src="assets/Glueguy/screenshot_1.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/Glueguy/screenshot_1.png") /></div>
-            <div><img src="assets/Glueguy/screenshot_2.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/Glueguy/screenshot_2.png") /></div>
-            <div><img src="assets/Glueguy/screenshot_3.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/Glueguy/screenshot_3.png") /></div>
+            <div><img src="assets/GlueGuy/screenshot_1.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/GlueGuy/screenshot_1.png") /></div>
+            <div><img src="assets/GlueGuy/screenshot_2.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/GlueGuy/screenshot_2.png") /></div>
+            <div><img src="assets/GlueGuy/screenshot_3.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/GlueGuy/screenshot_3.png") /></div>
         </div>
         <p>Glue Guy is a short puzzle platformer about an extending gluestick who can stick to ceilings, grab and toss platforms in order to complete levels. The game was made for GMTK Game Jam 2024 the theme of the jam being "Built to Scale", the inspiration for Glue Guy's whole concept.</p>
         <div class="container_projInfo">
-            <div><img src="assets/Glueguy/screenshot_4.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/Glueguy/screenshot_4.png") /></div>
-            <div><img src="assets/Glueguy/screenshot_5.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/Glueguy/screenshot_5.png") /></div>
-            <div><img src="assets/Glueguy/screenshot_6.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/Glueguy/screenshot_6.png") /></div>
+            <div><img src="assets/GlueGuy/screenshot_4.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/GlueGuy/screenshot_4.png") /></div>
+            <div><img src="assets/GlueGuy/screenshot_5.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/GlueGuy/screenshot_5.png") /></div>
+            <div><img src="assets/GlueGuy/screenshot_6.png" width="320" height="240" style="border: 5px solid #bbb" ; id="img_projects" ; onclick=imgLarge("assets/GlueGuy/screenshot_6.png") /></div>
         </div>
         <p>
-            Blario Blare is split into two gamemodes, Campaign and Endless.<br>
-            Campaign Mode is the main portion of Blario Blare, the player is tasked with completing minigames in order to complete progressively faster rounds, which consist of ten minigames each. interspersed between rounds the game has text based cutscenes, these acting as a way to play into the Game Jam's theme.
-            Endless Mode, on the other hand, functions as a score attack in which the round system is removed and the player is able to play minigames forever, the game speeding up more drastically each ten minigames.
-        </p>
-
-        <p>
-            The short development time envoked by the Game Jam's runtime led to a lot of the game's features being coded dynamically allowing for me to tweak elements of the game quickly.
-            For example, dialogue runs on methods that need a few string parameters (text, sprite) and then sort themself into a text set. Achivements while needing to be set to true in the code, only require a name and value to appear in the menu.
-            Minigames are setup to only require coding for their visuals and the conditions needed to satisfy the win condition. scoring, intermissions, win/lose conditions and speedups are all handled outside of this and don't require any alternating within minigames to work.
-
-            <pNote> (Achivements were coded into the initial release of the game but the button to access the menu was commented out due to the achievement ideas not being finished)</pNote>
+            The main technical highlight for this project would probably be the game's mechanics which all relied on state machines, checking and setting what the player was carrying in order to allow them to toss and throw objects. Objects also having setup to allow for the player to use them as platforms after being thrown.
+            Other aspects of the game such as tutorialisation and the way its displayed also use this system, and it's use within this project was generally helpful for gaining a greater grasp on the use of states.
         </p>
         <center>
             <a class="home" href="index.html#projects"> BACK</a>
