@@ -11,8 +11,7 @@ nav {
     scroll-margin: 16px;
 }
 body {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: auto;
     font-family: "courierFontBold";
     background-image: url("../assets/background.png"), linear-gradient(white, #e6eff9);
     background-repeat: repeat;
