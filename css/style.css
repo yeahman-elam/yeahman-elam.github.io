@@ -9,6 +9,7 @@ nav {
     display: flex;
     position: center;
     scroll-margin: 16px;
+    text-decoration: none;
 }
 body {
     width: 80%;
@@ -25,6 +26,8 @@ body.locked {
 
 .about {
     font-family: "courierFontBold";
+    width: 70%;
+    margin: auto;
 }
 
 p {
@@ -49,6 +52,9 @@ h2 {
     font-size: 36px;
     margin-bottom: 0px;
     font-family: "courierFontBold";
+}
+a {
+    text-decoration: none;
 }
 video {
     border: 5px solid #bbb; 
