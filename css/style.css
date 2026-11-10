@@ -11,6 +11,7 @@ nav {
     scroll-margin: 16px;
 }
 body {
+    width: 80%;
     margin: auto;
     font-family: "courierFontBold";
     background-image: url("../assets/background.png"), linear-gradient(white, #e6eff9);
@@ -65,13 +66,14 @@ span {
 .divider {
     margin-top: 16px;
     margin-bottom: 16px;
+    width: 100%;
     border-top: 3px solid #bbb;
 }
 
 #table_projects {
     margin-top: 16px;
-    width: 100%;
-    height: 100%
+    width: 60%;
+    height: 60%
 }
 
 #table_nav {
