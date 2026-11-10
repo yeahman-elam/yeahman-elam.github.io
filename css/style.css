@@ -24,8 +24,6 @@ body.locked {
 }
 
 .about {
-    margin-left: 200px;
-    margin-right: 200px;
     font-family: "courierFontBold";
 }
 
@@ -72,8 +70,8 @@ span {
 
 #table_projects {
     margin-top: 16px;
-    width: 60%;
-    height: 60%
+    width: 100%;
+    height: 100%
 }
 
 #table_nav {
@@ -135,12 +133,11 @@ img {
 
 .project_maj {
     display: block;
-    margin: auto;
-    margin-top: 16px;
     padding: 12px;
     width: 1050px;
     height: 100%;
     background-color: #bbb;
+    margin: auto;
     border-radius: 16px;
 }
 
