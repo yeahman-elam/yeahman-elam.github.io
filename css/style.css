@@ -12,7 +12,7 @@ nav {
     text-decoration: none;
 }
 body {
-    width: 80%;
+    width: 1220px;
     margin: auto;
     font-family: "courierFontBold";
     background-image: url("../assets/background.png"), linear-gradient(white, #e6eff9);
